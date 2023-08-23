@@ -293,7 +293,13 @@ img {
 
 /**
   |============================
-  | Main page
+  | MAIN PAGE
+  |============================
+*/
+
+/*
+  |============================
+  | Hero page
   |============================
 */
 .hero-page {
@@ -345,6 +351,12 @@ img {
 .hero-page-button:focus {
   background-color: var(--ocean);
 }
+
+/*
+  |============================
+  | Section 1
+  |============================
+*/
 .section-one {
   padding: 120px 0;
 }
@@ -382,6 +394,12 @@ img {
   color: var(--slate);
   width: 264px;
 }
+
+/*
+  |============================
+  | Section 2
+  |============================
+*/
 .section-two {
   padding-bottom: 120px;
 }
@@ -401,6 +419,12 @@ img {
 .section-two .item {
   flex-basis: calc((100% - 48px) / 3);
 }
+
+/*
+  |============================
+  | Section 3
+  |============================
+*/
 .section-three {
   background-color: var(--cloud);
   padding: 120px 0;
@@ -468,6 +492,12 @@ img {
 .section-three .card-content .link:focus {
   background-color: var(--ocean);
 }
+
+/*
+  |============================
+  | Section 4
+  |============================
+*/
 .section-four {
   padding: 120px 0;
   background-color: var(--white);
@@ -511,7 +541,7 @@ img {
 
 /**
   |============================
-  | Modal
+  | MODAL
   |============================
 */
 .backdrop {
@@ -714,20 +744,25 @@ input[type='checkbox']:checked + .modal-form-policy > .policy-checkbox {
 
 /**
   |============================
-  | Portfolio
+  | PORTFOLIO
   |============================
 */
 .portfolio {
   padding-top: 96px;
   padding-bottom: 120px;
 }
+
+/*
+  |============================
+  | Filter buttons
+  |============================
+*/
 .portfolio .buttons {
   display: flex;
   justify-content: center;
   gap: 24px;
   margin-bottom: 72px;
 }
-
 .filter-button {
   font-family: inherit;
   background: var(--cloud);
@@ -753,6 +788,11 @@ input[type='checkbox']:checked + .modal-form-policy > .policy-checkbox {
     0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
 }
 
+/*
+  |============================
+  | Project cards
+  |============================
+*/
 .project-card {
   background-color: var(--white);
   display: flex;
