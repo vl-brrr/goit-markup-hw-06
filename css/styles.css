@@ -1,4 +1,8 @@
-/*Шаблони (змінні)*/
+/*
+  |============================
+  | Шаблони (змінні)
+  |============================
+*/
 :root {
   --logo: 'Raleway', sans-serif;
   --main-font: 'Roboto', sans-serif;
@@ -16,7 +20,12 @@
   --dairy: #fcfcfc;
   --animation: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-/*General*/
+
+/**
+  |============================
+  | General
+  |============================
+*/
 body {
   font-family: var(--main-font);
   color: var(--slate);
@@ -69,7 +78,12 @@ img {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-/*Header + Footer*/
+
+/**
+  |============================
+  | Header + Footer
+  |============================
+*/
 .header {
   box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
@@ -277,7 +291,11 @@ img {
   background-color: var(--ocean);
 }
 
-/*Main page*/
+/**
+  |============================
+  | Main page
+  |============================
+*/
 .hero-page {
   background-color: var(--navy-blue);
   padding: 188px 0;
@@ -491,6 +509,11 @@ img {
   justify-content: center;
 }
 
+/**
+  |============================
+  | Modal
+  |============================
+*/
 .backdrop {
   position: fixed;
   top: 0;
@@ -688,7 +711,12 @@ input[type='checkbox']:checked + .modal-form-policy > .policy-checkbox {
 .modal-form-btn:focus {
   background-color: var(--ocean);
 }
-/*Portfolio*/
+
+/**
+  |============================
+  | Portfolio
+  |============================
+*/
 .portfolio {
   padding-top: 96px;
   padding-bottom: 120px;
