@@ -1042,6 +1042,7 @@ img {
   left: 50%;
   transform: translateX(-50%) translateY(-50%);
   transition: transform var(--animation);
+  min-width: 310px;
   max-width: 392px;
   min-height: 584px;
   border-radius: 4px;
@@ -1105,7 +1106,8 @@ img {
   justify-content: center;
 }
 .modal-form-header {
-  width: 360px;
+  min-width: 290px;
+  max-width: 360px;
   margin-bottom: 16px;
   font-weight: 500;
   color: var(--navy-blue);
