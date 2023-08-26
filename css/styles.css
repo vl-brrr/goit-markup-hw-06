@@ -320,6 +320,11 @@ img {
   color: var(--iris);
   transition: color var(--animation);
 }
+@media only screen and (max-width: 424px) {
+  .contacts-list-item .link.phone {
+    font-size: 24px;
+  }
+}
 
 .contacts-list-item .link.email {
   font-size: 20px;
