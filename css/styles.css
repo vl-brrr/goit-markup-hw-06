@@ -111,7 +111,11 @@ img {
 .header .logo {
   padding: 24px 0;
   display: block;
-  margin-right: 76px;
+}
+@media only screen and (min-width: 768px) {
+  .header .logo {
+    margin-right: 76px;
+  }
 }
 .logo {
   font-family: var(--logo);
@@ -286,7 +290,6 @@ img {
 
 .mobile-menu .link {
   display: block;
-  padding: 10px;
   color: var(--navy-blue);
   text-decoration: none;
 
@@ -349,12 +352,7 @@ img {
   background-color: var(--navy-blue);
   padding: 96px 0;
 }
-@media only screen and (min-width: 758px) {
-  .footer {
-    padding-left: 108px;
-    padding-right: 108px;
-  }
-}
+
 @media only screen and (min-width: 1158px) {
   .footer {
     padding: 100px 0;
@@ -375,12 +373,15 @@ img {
     column-gap: 24px;
     justify-content: flex-start;
     align-items: flex-start;
+    margin: 0 auto;
+    width: 528px;
   }
 }
 @media only screen and (min-width: 1158px) {
   .footer .container {
     align-items: baseline;
     gap: 0px;
+    width: 100%;
   }
 }
 
